@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40490/vecteezy_background-white_fj1220.jpg');
+    backdrop-filter: blur(0.8);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+header {
+
+    padding: 20px;
+    text-align: center;
+    backdrop-filter: blur(0.1);
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+main {
+    padding: 50px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+#about img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0rem;
+}
+
+.about-text {
+    flex: 1;
+    font-size: 12pt;
+    line-height: 1.5;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 10px;
+}
+
+.project-container img {
+    grid-column: span 5;
+    padding-left: 30px;
+}
+
+.project-container-1 img {
+    grid-column: span 4;
+    padding-left: 0px;
+    width: 33%;
+}
+
+
+.image-p1 {
+    max-width: 600px;
+    height: 400px;
+    display: flex;
+    margin-left: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: block;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #04AA6D;
+}
+
+#skills {
+    line-height: 1.5;
+}
+
+.project h3 {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+.project p {
+    line-height: 1.5;
+    margin-bottom: 0;
+}
+
+.button {
+    background-color: #1d66bf;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
